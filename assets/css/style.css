@@ -1,0 +1,126 @@
+header {
+    width:1200px;
+    background:linear-gradient(-20deg, #3f3f3f, #7f7f7f);
+    margin:auto;
+    height:180px;
+    border-radius:10px;
+}
+.li-header{
+    display:inline-block;
+    margin-left:80px;
+    font-size:1.5em;
+    position:relative;
+    bottom: 135px;
+    background:linear-gradient(to right, #f9f9f9 0%, #8f8f8f 51%, #5f5f5f 100%);
+    transition: .3s;
+    background-size:200%;
+    border-radius:7px;
+
+}
+.li-header:hover{
+    background-position: right center;
+    transform:scale(110%);
+    cursor: pointer;
+}
+body {
+    font-family: monospace;
+    background:repeating-linear-gradient(20deg, #7e6969 10px, #787878 5px, #7e6969 20px);
+}
+.logo {
+    width:115px;
+    padding:20px;
+    position:relative;
+    bottom:110px;
+}
+.text {
+    width:400px;
+    position: relative;
+    left: 245px;
+    bottom:35px;
+}
+.main-photo {
+    width:1140px; 
+    padding: 30px;
+    border-radius: 50px;
+}
+.container-photo{
+    width:1200px;
+    margin:auto;
+}
+.container-cards{
+    width:1200px;
+    margin:auto;
+    border-radius:12px;
+    height:360px;
+}
+.container-card {
+    width:350px;
+    display:inline-block;
+    margin-left: 35px;
+    box-shadow: 4px 4px 8px 0px #444333;
+    background: linear-gradient(20deg, #83838386, #12121286);
+    border: 1px solid #838383;
+    transition: .5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align:center;
+}
+.card-photo {
+    width:350px;
+    background-size:cover;
+}
+.container-card:hover{
+    transform:translate(0px, -20px) scale(105%);
+}
+main {
+    background:linear-gradient(15deg, #1f1f1f, #5f5f5f);
+    border-radius:20px;
+    width:1200px;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+.p-text{
+    width:1000px;
+    margin:auto;
+    color: #686868;
+    padding-bottom:15px;
+    text-indent: 30px;
+    font-size:1.1em;
+}
+.footer-block {
+    width:1230px;
+    margin:auto;
+    height:235px;
+    background:linear-gradient(15deg, #111, #555);
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+.footer-logo {
+    width:260px;
+    position: relative;
+    top:1px;
+    bottom:40px;
+    left:120px;
+}
+.about-us {
+    display:inline-block;
+    padding-left:60px;
+    position: relative;
+    bottom:50px;
+    left:120px;
+    color:#727272;
+    font-size:18px;
+    font-weight:900;
+}
+.footer-text{
+    color:#727272;
+    font-size:14px;
+    padding-top:2px;
+    font-weight:400;
+}
+hr {
+    width:1000px;
+    position: relative;
+    bottom:50px;
+    color:#999999;
+}
